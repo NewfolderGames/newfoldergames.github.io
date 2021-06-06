@@ -18,13 +18,13 @@
 	<header id="header">
 		<div class="left">
 			<span class="game">Lights Out</span>
-			<span class="version">v0.1.1</span>
+			<span class="version">v0.1.3</span>
 			<span class="creator">by NewfolderGames</span>
 		</div>
 		<div class="center"></div>
 		<div class="right">
-			<span class="save" onclick="window.Game.save()">Save</span>
-			<span class="options">Options</span>
+			<span class="save" onclick="Game.save()">Save</span>
+			<!-- <span class="options">Options</span> -->
 		</div>
 	</header>
 	<main id="game-container">
@@ -37,21 +37,13 @@
 			<div id="tab-building" class="tab"></div>
 			<div id="tab-technology" class="tab">
 				<div id="tab-technology-locked"></div>
-				<div id="tab-technology-researchable">
-					<div class="title">Researchable technologies</div>
-				</div>
-				<div id="tab-technology-researched">
-					<div class="title">Researched technologies</div>
-				</div>
+				<div id="tab-technology-researchable"></div>
+				<div id="tab-technology-researched"></div>
 			</div>
 			<div id="tab-upgrade" class="tab">
 				<div id="tab-upgrade-locked"></div>
-				<div id="tab-upgrade-researchable">
-					<div class="title">Researchable upgrades</div>
-				</div>
-				<div id="tab-upgrade-researched">
-					<div class="title">Researched upgrades</div>
-				</div>
+				<div id="tab-upgrade-researchable"></div>
+				<div id="tab-upgrade-researched"></div>
 			</div>
 			<div id="tab-stats" class="tab"></div>
 		</article>
