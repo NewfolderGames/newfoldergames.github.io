@@ -1,0 +1,83 @@
+body {
+    background: #FFFFFF;
+}
+
+#section-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#section-hero .hero-about {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#section-hero .about-icon {
+    border-radius: 50%;
+    width: 20vmin;
+    max-width: 320px;
+}
+
+#section-hero .about-text-container {
+    margin-top: 32px;
+    max-width: 600px;
+}
+
+#section-hero .about-text-container .about-greeting {
+    margin: 0 0 16px 0;
+}
+
+#section-hero .about-text-container .about-greeting {
+    margin: 0 0 24px 0;
+    font-size: 2rem;
+    text-align: center;
+}
+
+#section-hero .about-text-container .about-greeting .name {
+    background: var(--color-3);
+    background: linear-gradient(135deg, var(--color-3) 0%, var(--color-4) 100%);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+#section-hero .about-text-container .about-greeting .nickname {
+    font-size: 0.65em;
+    color: #CCCCCC;
+}
+
+#section-hero .about-text-container .about-contact {
+    margin-top: 24px;
+}
+
+#section-hero .about-text-container .about-contact > .contact {
+    margin-right: 8px;
+}
+
+#section-hero .about-text-container .about-contact .contact {
+    color: inherit;
+
+}
+
+#section-hero .about-text-container .about-contact .contact img {
+    vertical-align: bottom;
+    width: 16px;
+}
+
+@media (max-width: 768px) {
+
+    #section-hero .about-text-container .about-greeting {
+        font-size: 1.5rem;
+    }
+
+}
+
+@media (max-width: 480px) {
+
+    #section-hero .about-text-container .about-greeting {
+        font-size: 1.25rem;
+    }
+
+}

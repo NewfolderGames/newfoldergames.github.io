@@ -1,0 +1,28 @@
+:root {
+
+    --color-0: #FFFFFF;
+    --color-1: #FDF7C3;
+    --color-2: #FFDEB4;
+    --color-3: #FFB4B4;
+    --color-4: #B2A4FF;
+    --color-5: #6c6161;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    width: 100%;
+    color: var(--color-5);
+    font-size: 14px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+body > .section {
+    box-sizing: border-box;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 8px;
+    min-height: 100vh;
+}
