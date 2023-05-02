@@ -80,4 +80,14 @@ body {
         font-size: 1.25rem;
     }
 
+    #section-hero .about-text-container .about-contact {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #section-hero .about-text-container .about-contact .contact {
+        margin-bottom: 4px;
+    }
+
 }
