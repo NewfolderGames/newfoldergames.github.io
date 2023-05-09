@@ -35,7 +35,7 @@
 #sectionHero .about-text-container .about-greeting .name {
     background: var(--color-3);
     background: linear-gradient(135deg, var(--color-3) 0%, var(--color-4) 100%);
-    background-clip: text;
+    -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
 
