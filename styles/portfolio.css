@@ -1,0 +1,41 @@
+#sectionProjectList .project-year-list-container {
+    margin-top: 16px;
+}
+
+#sectionProjectList .project-year-list-container a {
+    color: inherit;
+}
+
+#sectionProjectList .project-year {
+    font-size: 1.25rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#sectionProjectList li {
+    margin: 8px 0;
+}
+
+#sectionProjects .projects {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#sectionProjects .projects .project {
+
+}
+
+#sectionProjects .projects .project .title {
+    font-weight: bold;
+}
+
+#sectionProjects .projects .project .date {
+    margin-top: 8px;
+    color: #AAAAAA;
+}
+
+#sectionProjects .projects .divider {
+    margin: 32px 0;
+    border-bottom: 1px solid #aaaaaa;
+}
